@@ -11,11 +11,11 @@ import java.util.ArrayList;
  *
  * @author Salvador
  */
-public class HealthyB extends Burger {
+public class HealthyB extends Burger {  //Inherits the class Burger
 
     public HealthyB(String meatType, double price)
     {
-        super("Brown Rye", meatType,price);
+        super("Brown Rye", meatType,price); //Defaults to Brown Rye bread and changes the extra limit to 6
         limExtras=6;
     }
     
